@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: sans-serif;
+  background: url(img/i3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: change 45s infinite ease-in-out;
+}
+
+.info img {
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.info ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin-left: 6rem;
+}
+
+.info ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icon {
+  margin-right: 6rem;
+}
+
+.logo img {
+  margin-left: 6rem;
+  width: 100px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul {
+  margin-top: 1.6rem;
+  list-style-type: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu ul li a:hover {
+  color: rgb(0, 255, 0);
+}
+
+.some-icon {
+  margin-top: 1.6rem;
+  margin-right: 6rem;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.items h2,
+p,
+h1 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.items h2 {
+  color: #eeff00;
+}
+
+.items p {
+  font-size: 2rem;
+  font-weight: 0.19rem;
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+.discover a {
+    padding: 1rem;
+    background-color: green;
+    text-decoration: none;
+    border-bottom: 0.2rem solid #eeff00;
+    color: #fff;
+}
+
+.discover a img{
+    margin-right: 0.5rem;
+}
+
+.bar {
+    margin-top: 5rem;
+    background-color: #fff;
+    padding: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.bar h4 {
+    display: inline-block;
+    background-color: green;
+    padding: 1rem;
+}
+
+.bar p {
+    display: inline-block;
+    color:#818181;
+    margin-left: 1rem;
+
+}
+
+.bar span {
+        margin-left: 32rem;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img/i3.jpg);
+    }
+    20%
+    {
+        background-image: url(img/i2.jpg);
+    }
+    40%
+    {
+        background-image: url(img/i1.jpg);
+    }
+    60%
+    {
+        background-image: url(img/i3.jpg);
+    }
+    80%
+    {
+        background-image: url(img/i2.jpg);
+    }
+    100%
+    {
+        background-image: url(img/i1.jpg);
+    }
+  }
